@@ -11,6 +11,6 @@
 @interface LSTButton : UIButton
 
 #pragma mark - 普通文字按钮
-+ (instancetype) normalButtonWithFrame:(CGRect)rect font:(UIFont *)font norColor:(UIColor *)norColor norText:(NSString *)norText selColor:(UIColor *)selColor selText:(NSString *)selText clickBlock:(void(^)(UIButton * sender))clickBlock;
++ (instancetype) normalButtonWithFrame:(CGRect)rect fontSize:(CGFloat)fontSize textColor:(UIColor *)textColor text:(NSString *)text backColor:(UIColor *)backColor clickBlock:(void(^)(UIButton * sender))clickBlock;
 
 @end

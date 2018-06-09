@@ -20,10 +20,10 @@
         
         UITabBarItem *item=[UITabBarItem appearance];
         NSMutableDictionary *dict=[NSMutableDictionary dictionary];
-        dict[NSFontAttributeName]=[UIFont systemFontOfSize:11];
+        dict[NSFontAttributeName]=[UIFont systemFontOfSize:12];
         dict[NSForegroundColorAttributeName]= RGB(51, 51, 51);
         NSMutableDictionary *Selectdict=[NSMutableDictionary dictionary];
-        Selectdict[NSFontAttributeName]=[UIFont systemFontOfSize:11];
+        Selectdict[NSFontAttributeName]=[UIFont systemFontOfSize:12];
         Selectdict[NSForegroundColorAttributeName] = BasicColor;
         
         [item setTitleTextAttributes:dict forState:UIControlStateNormal];

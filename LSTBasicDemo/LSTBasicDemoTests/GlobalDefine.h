@@ -14,7 +14,6 @@
 #import "UserInfo.h"
 
 #import <SVProgressHUD/SVProgressHUD.h>
-
 #import <MJExtension/MJExtension.h>
 #import <MJRefresh/MJRefresh.h>
 
@@ -37,6 +36,7 @@
 
 //版本号
 #define updatebuild      [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+
 #define YuMing @"http://"
 #define FaildString @"网络请求失败"
 

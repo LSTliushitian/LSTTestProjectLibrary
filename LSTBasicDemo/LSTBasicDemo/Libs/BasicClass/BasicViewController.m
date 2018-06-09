@@ -7,7 +7,6 @@
 //
 
 #import "BasicViewController.h"
-#import "LSTButton.h"
 
 @interface BasicViewController ()
 
@@ -49,9 +48,12 @@
      3. 返回按钮
      */
     [self.view addSubview:({
-        _backButton = [LSTButton normalButtonWithFrame:CGRectMake(0, SafeAreaTopHeight-44, 40, 44) font:[UIFont systemFontOfSize:32] norColor:[UIColor whiteColor] norText:@">" selColor:nil selText:nil clickBlock:^(UIButton *sender) {
-            [self backButtonClick:sender];
-        }];
+        _backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _backButton.frame = CGRectMake(0, SafeAreaTopHeight-44, 40, 44);
+        _backButton.titleLabel.font = [UIFont systemFontOfSize:32];
+        [_backButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [_backButton setTitle:@"<" forState:UIControlStateNormal];
+        [_backButton addTarget:self action:@selector(backButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         
         _backButton;
     })];
@@ -60,9 +62,11 @@
      4. 右侧按钮
      */
     [self.view addSubview:({
-        _rightButton = [LSTButton normalButtonWithFrame:CGRectMake(SCREENWIDTH-40, SafeAreaTopHeight-44, 40, 44) font:[UIFont systemFontOfSize:32] norColor:[UIColor whiteColor] norText:@"+" selColor:nil selText:nil clickBlock:^(UIButton *sender) {
-            NSLog(@">>>>>>>>>>>>");
-        }];
+        _rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _rightButton.frame = CGRectMake(SCREENWIDTH-40, SafeAreaTopHeight-44, 40, 44);
+        _rightButton.titleLabel.font = [UIFont systemFontOfSize:32];
+        [_rightButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [_rightButton setTitle:@"+" forState:UIControlStateNormal];
         
         _rightButton.hidden = YES;
         _rightButton;

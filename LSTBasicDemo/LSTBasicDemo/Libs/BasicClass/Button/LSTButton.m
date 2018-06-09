@@ -16,15 +16,15 @@
 
 @implementation LSTButton
 
-+ (instancetype) normalButtonWithFrame:(CGRect)rect font:(UIFont *)font norColor:(UIColor *)norColor norText:(NSString *)norText selColor:(UIColor *)selColor selText:(NSString *)selText clickBlock:(void (^)(UIButton *))clickBlock {
++ (instancetype) normalButtonWithFrame:(CGRect)rect fontSize:(CGFloat)fontSize textColor:(UIColor *)textColor text:(NSString *)text backColor:(UIColor *)backColor clickBlock:(void (^)(UIButton *))clickBlock {
     
     LSTButton * button = [LSTButton buttonWithType:UIButtonTypeCustom];
     button.frame = rect;
-    button.titleLabel.font = font;
-    [button setTitleColor:norColor forState:UIControlStateNormal];
-    [button setTitle:norText forState:UIControlStateNormal];
-    [button setTitleColor:selColor forState:UIControlStateSelected];
-    [button setTitle:selText forState:UIControlStateSelected];
+    button.titleLabel.font = [UIFont systemFontOfSize:fontSize];
+    [button setTitleColor:textColor forState:UIControlStateNormal];
+    [button setTitle:text forState:UIControlStateNormal];
+    button.backgroundColor = backColor;
+    
     [button addTarget:button action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     
     if (clickBlock) {
