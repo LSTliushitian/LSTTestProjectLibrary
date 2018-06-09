@@ -1,0 +1,11 @@
+
+# platform :ios, '9.0'
+
+target 'LSTBasicDemo' do
+
+pod 'AFNetworking'
+pod 'SVProgressHUD'
+pod 'MJRefresh'
+pod 'MJExtension'
+
+end
