@@ -149,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				7A27C5D020CA537600775EF1 /* Libs */,
-				7A27C5D120CA537600775EF1 /* Class */,
 				7A27C5CB20CA537600775EF1 /* Others */,
 				7A27C59C20CA523D00775EF1 /* Main.storyboard */,
 				7A27C5A220CA523E00775EF1 /* Assets.xcassets */,
@@ -201,13 +200,6 @@
 				7A27C5DC20CA57C200775EF1 /* UserInfo */,
 			);
 			path = Libs;
-			sourceTree = "<group>";
-		};
-		7A27C5D120CA537600775EF1 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Class;
 			sourceTree = "<group>";
 		};
 		7A27C5DA20CA57C200775EF1 /* 单利 */ = {
