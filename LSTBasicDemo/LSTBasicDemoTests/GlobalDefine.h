@@ -35,7 +35,7 @@
 #define UserData [UserInfo sharedUserInfo]
 
 //版本号
-#define updatebuild      [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+#define BuildCode      [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
 
 #define YuMing @"http://"
 #define FaildString @"网络请求失败"
