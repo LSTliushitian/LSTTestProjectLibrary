@@ -16,12 +16,12 @@
 		7A27C5BE20CA523E00775EF1 /* LSTBasicDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C5BD20CA523E00775EF1 /* LSTBasicDemoUITests.m */; };
 		7A27C5D220CA537600775EF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C5CD20CA537600775EF1 /* ViewController.m */; };
 		7A27C5D320CA537600775EF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C5CE20CA537600775EF1 /* AppDelegate.m */; };
-		7A27C5DF20CA57C200775EF1 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C5DD20CA57C200775EF1 /* UserInfo.m */; };
-		7A27C5E520CA587900775EF1 /* NSDictionary+DeleteNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C5E220CA587900775EF1 /* NSDictionary+DeleteNull.m */; };
-		7A27C5E620CA587900775EF1 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C5E420CA587900775EF1 /* HttpTool.m */; };
-		7A27C5F220CA5C6200775EF1 /* BasicTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C5EE20CA5C6200775EF1 /* BasicTabBarController.m */; };
-		7A27C5F320CA5C6200775EF1 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A27C5EF20CA5C6200775EF1 /* BasicViewController.m */; };
-		7A3AC0A820CB748800E63C38 /* LSTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AC0A720CB748800E63C38 /* LSTButton.m */; };
+		7AACEBA6213D12820094A1E2 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AACEB97213D12820094A1E2 /* UserInfo.m */; };
+		7AACEBA7213D12820094A1E2 /* BasicTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AACEB9A213D12820094A1E2 /* BasicTabBarController.m */; };
+		7AACEBA8213D12820094A1E2 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AACEB9B213D12820094A1E2 /* BasicViewController.m */; };
+		7AACEBA9213D12820094A1E2 /* LSTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AACEB9E213D12820094A1E2 /* LSTButton.m */; };
+		7AACEBAA213D12820094A1E2 /* NSDictionary+DeleteNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AACEBA3213D12820094A1E2 /* NSDictionary+DeleteNull.m */; };
+		7AACEBAB213D12820094A1E2 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AACEBA5213D12820094A1E2 /* HttpTool.m */; };
 		ACF165423B3D8295D4DAE7F0 /* libPods-LSTBasicDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 534EC0B5745F3DA969DFC78D /* libPods-LSTBasicDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -64,18 +64,18 @@
 		7A27C5D820CA572000775EF1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7A27C5D920CA574600775EF1 /* GlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
 		7A27C5DB20CA57C200775EF1 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
-		7A27C5DD20CA57C200775EF1 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
-		7A27C5DE20CA57C200775EF1 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
-		7A27C5E120CA587900775EF1 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
-		7A27C5E220CA587900775EF1 /* NSDictionary+DeleteNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DeleteNull.m"; sourceTree = "<group>"; };
-		7A27C5E320CA587900775EF1 /* NSDictionary+DeleteNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DeleteNull.h"; sourceTree = "<group>"; };
-		7A27C5E420CA587900775EF1 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
-		7A27C5EE20CA5C6200775EF1 /* BasicTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTabBarController.m; sourceTree = "<group>"; };
-		7A27C5EF20CA5C6200775EF1 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
-		7A27C5F020CA5C6200775EF1 /* BasicTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTabBarController.h; sourceTree = "<group>"; };
-		7A27C5F120CA5C6200775EF1 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
-		7A3AC0A620CB748800E63C38 /* LSTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTButton.h; sourceTree = "<group>"; };
-		7A3AC0A720CB748800E63C38 /* LSTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTButton.m; sourceTree = "<group>"; };
+		7AACEB97213D12820094A1E2 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		7AACEB98213D12820094A1E2 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		7AACEB9A213D12820094A1E2 /* BasicTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTabBarController.m; sourceTree = "<group>"; };
+		7AACEB9B213D12820094A1E2 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		7AACEB9D213D12820094A1E2 /* LSTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTButton.h; sourceTree = "<group>"; };
+		7AACEB9E213D12820094A1E2 /* LSTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTButton.m; sourceTree = "<group>"; };
+		7AACEB9F213D12820094A1E2 /* BasicTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTabBarController.h; sourceTree = "<group>"; };
+		7AACEBA0213D12820094A1E2 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		7AACEBA2213D12820094A1E2 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		7AACEBA3213D12820094A1E2 /* NSDictionary+DeleteNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DeleteNull.m"; sourceTree = "<group>"; };
+		7AACEBA4213D12820094A1E2 /* NSDictionary+DeleteNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DeleteNull.h"; sourceTree = "<group>"; };
+		7AACEBA5213D12820094A1E2 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		B1653DABB5EFBB94FA7A0B30 /* Pods-LSTBasicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTBasicDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSTBasicDemo/Pods-LSTBasicDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E96CD86F4A4B194BB2B8430E /* Pods-LSTBasicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTBasicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTBasicDemo/Pods-LSTBasicDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,8 +148,8 @@
 		7A27C59520CA523C00775EF1 /* LSTBasicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7AACEB95213D12820094A1E2 /* Tools */,
 				7A27C5D020CA537600775EF1 /* Libs */,
-				7A1D895120CBAAC20057E051 /* Class */,
 				7A27C5CB20CA537600775EF1 /* Others */,
 				7A27C59C20CA523D00775EF1 /* Main.storyboard */,
 				7A27C5A220CA523E00775EF1 /* Assets.xcassets */,
@@ -195,10 +195,7 @@
 		7A27C5D020CA537600775EF1 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				7A27C5ED20CA5C6200775EF1 /* BasicClass */,
-				7A27C5E020CA587900775EF1 /* HttpTool */,
 				7A27C5DA20CA57C200775EF1 /* 单利 */,
-				7A27C5DC20CA57C200775EF1 /* UserInfo */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -211,45 +208,55 @@
 			path = "单利";
 			sourceTree = "<group>";
 		};
-		7A27C5DC20CA57C200775EF1 /* UserInfo */ = {
+		7AACEB95213D12820094A1E2 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				7A27C5DE20CA57C200775EF1 /* UserInfo.h */,
-				7A27C5DD20CA57C200775EF1 /* UserInfo.m */,
+				7AACEB96213D12820094A1E2 /* UserInfo */,
+				7AACEB99213D12820094A1E2 /* BasicClass */,
+				7AACEBA1213D12820094A1E2 /* HttpTool */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7AACEB96213D12820094A1E2 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7AACEB97213D12820094A1E2 /* UserInfo.m */,
+				7AACEB98213D12820094A1E2 /* UserInfo.h */,
 			);
 			path = UserInfo;
 			sourceTree = "<group>";
 		};
-		7A27C5E020CA587900775EF1 /* HttpTool */ = {
+		7AACEB99213D12820094A1E2 /* BasicClass */ = {
 			isa = PBXGroup;
 			children = (
-				7A27C5E120CA587900775EF1 /* HttpTool.h */,
-				7A27C5E420CA587900775EF1 /* HttpTool.m */,
-				7A27C5E320CA587900775EF1 /* NSDictionary+DeleteNull.h */,
-				7A27C5E220CA587900775EF1 /* NSDictionary+DeleteNull.m */,
-			);
-			path = HttpTool;
-			sourceTree = "<group>";
-		};
-		7A27C5ED20CA5C6200775EF1 /* BasicClass */ = {
-			isa = PBXGroup;
-			children = (
-				7A3AC0A520CB748800E63C38 /* Button */,
-				7A27C5F120CA5C6200775EF1 /* BasicViewController.h */,
-				7A27C5EF20CA5C6200775EF1 /* BasicViewController.m */,
-				7A27C5F020CA5C6200775EF1 /* BasicTabBarController.h */,
-				7A27C5EE20CA5C6200775EF1 /* BasicTabBarController.m */,
+				7AACEB9A213D12820094A1E2 /* BasicTabBarController.m */,
+				7AACEB9B213D12820094A1E2 /* BasicViewController.m */,
+				7AACEB9C213D12820094A1E2 /* Button */,
+				7AACEB9F213D12820094A1E2 /* BasicTabBarController.h */,
+				7AACEBA0213D12820094A1E2 /* BasicViewController.h */,
 			);
 			path = BasicClass;
 			sourceTree = "<group>";
 		};
-		7A3AC0A520CB748800E63C38 /* Button */ = {
+		7AACEB9C213D12820094A1E2 /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				7A3AC0A620CB748800E63C38 /* LSTButton.h */,
-				7A3AC0A720CB748800E63C38 /* LSTButton.m */,
+				7AACEB9D213D12820094A1E2 /* LSTButton.h */,
+				7AACEB9E213D12820094A1E2 /* LSTButton.m */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		7AACEBA1213D12820094A1E2 /* HttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				7AACEBA2213D12820094A1E2 /* HttpTool.h */,
+				7AACEBA3213D12820094A1E2 /* NSDictionary+DeleteNull.m */,
+				7AACEBA4213D12820094A1E2 /* NSDictionary+DeleteNull.h */,
+				7AACEBA5213D12820094A1E2 /* HttpTool.m */,
+			);
+			path = HttpTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,15 +433,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A27C5D320CA537600775EF1 /* AppDelegate.m in Sources */,
-				7A3AC0A820CB748800E63C38 /* LSTButton.m in Sources */,
 				7A27C5D220CA537600775EF1 /* ViewController.m in Sources */,
 				7A27C5A920CA523E00775EF1 /* main.m in Sources */,
+				7AACEBA6213D12820094A1E2 /* UserInfo.m in Sources */,
+				7AACEBAA213D12820094A1E2 /* NSDictionary+DeleteNull.m in Sources */,
+				7AACEBA8213D12820094A1E2 /* BasicViewController.m in Sources */,
+				7AACEBA9213D12820094A1E2 /* LSTButton.m in Sources */,
+				7AACEBA7213D12820094A1E2 /* BasicTabBarController.m in Sources */,
 				7A27C5A120CA523D00775EF1 /* LSTBasicDemo.xcdatamodeld in Sources */,
-				7A27C5F220CA5C6200775EF1 /* BasicTabBarController.m in Sources */,
-				7A27C5F320CA5C6200775EF1 /* BasicViewController.m in Sources */,
-				7A27C5E520CA587900775EF1 /* NSDictionary+DeleteNull.m in Sources */,
-				7A27C5DF20CA57C200775EF1 /* UserInfo.m in Sources */,
-				7A27C5E620CA587900775EF1 /* HttpTool.m in Sources */,
+				7AACEBAB213D12820094A1E2 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
